@@ -1,0 +1,20 @@
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "acortaObjetos.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "build-babel": "babel src -d output --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
